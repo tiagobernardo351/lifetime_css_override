@@ -1,0 +1,103 @@
+:root {
+	--main-gridrowheader-width: 600px;
+	--main-firstcell-width: 450px;
+}
+
+/* Pages:
+	- Applications.aspx (Probably an entry point, not a screen itself.)
+	- Applications_List.aspx
+*/
+
+.EnvironmentLine.NBContainer >:first-child {
+	width: var(--main-gridrowheader-width);
+}
+
+.GridRowHeader {
+	width: var(--main-gridrowheader-width);
+	max-width: var(--main-gridrowheader-width);
+	height: unset; /* 2022-08-31-wed, to correct the display of the republished dependent applications. */
+}
+
+.GridRowHeaderName {
+	width: var(--main-firstcell-width);
+	max-width: var(--main-firstcell-width);
+}
+
+.GridRowHeaderName >:first-child {
+	width: var(--main-firstcell-width) !important;
+}
+
+/* Page: Application_History.apsx
+*/
+
+.noIcon .GridRowHeaderName {
+	width: var(--main-firstcell-width);
+	max-width: var(--main-firstcell-width);
+}
+
+.ShortDescription >:first-child {
+  height: unset !important;
+}
+
+/**************************************************
+ * Roles list.
+ **************************************************/
+.HeaderEmptyCell {
+    width: var(--main-gridrowheader-width);
+}
+.HeaderEmptyCell.thin {
+    width: var(--main-gridrowheader-width);
+}
+
+.thin .GridRowHeaderName {
+	width: var(--main-firstcell-width);
+	max-width: var(--main-firstcell-width);
+}
+
+.GridRowHeader.thin {
+	width: var(--main-firstcell-width);
+	max-width: var(--main-firstcell-width);
+}
+
+
+/**************************************************
+ * Users list.
+ **************************************************/
+
+table.UsersAndTeamsTable td.UserName a, table.UsersAndTeamsTable td.UserName div {
+    width: var(--main-firstcell-width);
+}
+
+table.UsersAndTeamsTable td.UserLoginName div {
+    width: 190px;
+}
+
+/**************************************************
+ * User_Show.
+ **************************************************/
+
+.RoleBoxWrapper .RoleBoxCell {
+    width: 200px !important;
+}
+
+.RoleTitleEmptyCell {
+	width: 290px !important;
+}
+
+
+/**************************************************
+ * Staging_Progress. (In development, 2020-05-12-Tue)
+ **************************************************/
+/*
+.StagingProgressBox > div:nth-child(3) {
+	width: 1000px !important;
+}
+
+.StagingProgressBox .InterEnvironmentOp {
+	margin-left: 50% !important;
+}
+
+.StagingProgressBox .tootip-bottom > div:nth-child(2) {
+	width: 500px !important;
+}
+*/
