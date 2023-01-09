@@ -8,6 +8,10 @@
 	- Applications_List.aspx
 */
 
+.EnvironmentLine .GridRowContent.sticky-apps-list {
+    margin-left: var(--main-gridrowheader-width);
+}
+
 .EnvironmentLine.NBContainer >:first-child {
 	width: var(--main-gridrowheader-width);
 }
