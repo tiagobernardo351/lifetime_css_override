@@ -7,7 +7,8 @@ https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgm
 as a way to inject CSS and Javascript into web pages, but we can use whatever other tool/extension accomplishes the same goal.
 
 The pattern URL that this CSS and Javascript should be applied to is (configured in a rule inside the Chrome extesion):
-com/lifetime
+
+**com/lifetime**
 
 This will, for example, match the following URLs:
 - www.server-dev.outsystemscloud.com/lifetime
