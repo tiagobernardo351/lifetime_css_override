@@ -1,0 +1,2 @@
+/* Stretch the textarea for the 'Description (optional)' from rows=3 so that the content can be easily read. */
+document.querySelectorAll("textarea.input.textarea")[0].rows = 10;
