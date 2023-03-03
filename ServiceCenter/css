@@ -1,0 +1,5 @@
+/* Stretch the textarea for the 'Description (optional)' so that the content can be easily read. */
+textarea {
+	background-color: lightyellow !important;
+	width: 100% !important;
+}
